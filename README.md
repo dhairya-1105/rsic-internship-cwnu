@@ -30,3 +30,23 @@ This repo contains the evaluation and optimization of vision-language models (Pu
 | **Trainable Params**| 34.16M       |
 | **GFLOPs**          | 105.48       |
 | **Avg Inference Time** | 416 ms   |
+
+## BLIP-2
+
+- For baseline results, run the blip2-inference notebook under the BLIP-2 folder to generate metrics and model characteristics.
+
+### Baseline Results : BLIP-2 on RSICD
+
+| Metric                  | Value        |
+|-------------------------|--------------|
+| **BLEU-1**              | 36.27        |
+| **BLEU-2**              | 17.60        |
+| **BLEU-3**              | 8.41         |
+| **BLEU-4**              | 4.34         |
+| **METEOR**              | 10.56        |
+| **ROUGE-L**             | 22.59        |
+| **CIDEr**               | 15.19        |
+| **Parameters**          | 3.7B         |
+| **Trainable Params**    | 188M         |
+| **GFLOPs**              | 761.17    |
+| **Avg Inference Time**  | 844 ms       |
