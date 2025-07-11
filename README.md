@@ -37,38 +37,46 @@ This repo contains the evaluation and optimization of vision-language models (Pu
 
 ### Baseline Results : BLIP-2 on RSICD
 
-<div style="display: flex; justify-content: space-between; gap: 40px;">
-
-<!-- Metrics Table -->
 <table>
-  <thead>
-    <tr><th colspan="2">🔹 Captioning Metrics</th></tr>
-  </thead>
-  <tbody>
-    <tr><td><b>BLEU-1</b></td><td>36.27</td></tr>
-    <tr><td><b>BLEU-2</b></td><td>17.60</td></tr>
-    <tr><td><b>BLEU-3</b></td><td>8.41</td></tr>
-    <tr><td><b>BLEU-4</b></td><td>4.34</td></tr>
-    <tr><td><b>METEOR</b></td><td>10.56</td></tr>
-    <tr><td><b>ROUGE-L</b></td><td>22.59</td></tr>
-    <tr><td><b>CIDEr</b></td><td>15.19</td></tr>
-  </tbody>
-</table>
+<tr>
+  <!-- Left Cell: Metrics Table -->
+  <td valign="top">
 
-<!-- Model Info Table -->
-<table>
-  <thead>
-    <tr><th colspan="2">🧠 Model Characteristics</th></tr>
-  </thead>
-  <tbody>
-    <tr><td><b>Parameters</b></td><td>3.7B</td></tr>
-    <tr><td><b>Trainable Params</b></td><td>188M</td></tr>
-    <tr><td><b>GFLOPs</b></td><td>761.17</td></tr>
-    <tr><td><b>Inference Time</b></td><td>844 ms</td></tr>
-  </tbody>
-</table>
+    <table>
+      <thead>
+        <tr><th colspan="2">🔹 Captioning Metrics</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><b>BLEU-1</b></td><td>30.01</td></tr>
+        <tr><td><b>BLEU-2</b></td><td>13.44</td></tr>
+        <tr><td><b>BLEU-3</b></td><td>6.58</td></tr>
+        <tr><td><b>BLEU-4</b></td><td>3.67</td></tr>
+        <tr><td><b>METEOR</b></td><td>8.60</td></tr>
+        <tr><td><b>ROUGE-L</b></td><td>21.06</td></tr>
+        <tr><td><b>CIDEr</b></td><td>15.49</td></tr>
+      </tbody>
+    </table>
 
-</div>
+  </td>
+
+  <!-- Right Cell: Model Info Table -->
+  <td valign="top" style="padding-left: 40px;">
+
+    <table>
+      <thead>
+        <tr><th colspan="2">🧠 Model Characteristics</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><b>Parameters</b></td><td>229.41M</td></tr>
+        <tr><td><b>Trainable Params</b></td><td>34.16M</td></tr>
+        <tr><td><b>GFLOPs</b></td><td>105.48</td></tr>
+        <tr><td><b>Inference Time</b></td><td>416 ms</td></tr>
+      </tbody>
+    </table>
+
+  </td>
+</tr>
+</table>
 
 ## Visualizations
 
