@@ -64,3 +64,11 @@ This repo contains the evaluation and optimization of vision-language models (Pu
 
 ### 🔹 PureT vs BLIP-2 – Model Characteristics
 ![Model Characteristics](Plots/puret_vs_blip2_baseline_model_chars.png)
+
+
+As for the LoRA fine-tuning, I've uploaded the template notebooks under the BLIP-2 folder:
+1. The blip2-lora-finetuning notebook contains the template for using LoRA with various configurations. To try a different config, simply edit the LoraConfig block by adding or removing target_modules or modifying rank or alpha or dropout values. Just make sure to use your own HF token and change model name before pushing to the hub.
+2. The blip2-lora-inference notebook contains the evaluation pipeline for pruned models. Just replace the model name with your own model from the hub and run the notebook.
+3. If you want to check out all the different LoRA configs, check out the [Finetuning](https://www.kaggle.com/code/bladesofchaos11/blip-2-finetuned) and [Inference](https://www.kaggle.com/code/bladesofchaos11/blip-2-final) notebooks on my Kaggle.
+
+   
