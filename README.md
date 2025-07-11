@@ -37,46 +37,19 @@ This repo contains the evaluation and optimization of vision-language models (Pu
 
 ### Baseline Results : BLIP-2 on RSICD
 
-<table>
-<tr>
-  <!-- Left Cell: Metrics Table -->
-  <td valign="top">
-
-    <table>
-      <thead>
-        <tr><th colspan="2">🔹 Captioning Metrics</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><b>BLEU-1</b></td><td>30.01</td></tr>
-        <tr><td><b>BLEU-2</b></td><td>13.44</td></tr>
-        <tr><td><b>BLEU-3</b></td><td>6.58</td></tr>
-        <tr><td><b>BLEU-4</b></td><td>3.67</td></tr>
-        <tr><td><b>METEOR</b></td><td>8.60</td></tr>
-        <tr><td><b>ROUGE-L</b></td><td>21.06</td></tr>
-        <tr><td><b>CIDEr</b></td><td>15.49</td></tr>
-      </tbody>
-    </table>
-
-  </td>
-
-  <!-- Right Cell: Model Info Table -->
-  <td valign="top" style="padding-left: 40px;">
-
-    <table>
-      <thead>
-        <tr><th colspan="2">🧠 Model Characteristics</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><b>Parameters</b></td><td>229.41M</td></tr>
-        <tr><td><b>Trainable Params</b></td><td>34.16M</td></tr>
-        <tr><td><b>GFLOPs</b></td><td>105.48</td></tr>
-        <tr><td><b>Inference Time</b></td><td>416 ms</td></tr>
-      </tbody>
-    </table>
-
-  </td>
-</tr>
-</table>
+| Metric                  | Value        |
+|-------------------------|--------------|
+| **BLEU-1**              | 36.27        |
+| **BLEU-2**              | 17.60        |
+| **BLEU-3**              | 8.41         |
+| **BLEU-4**              | 4.34         |
+| **METEOR**              | 10.56        |
+| **ROUGE-L**             | 22.59        |
+| **CIDEr**               | 15.19        |
+| **Parameters**          | 3.7B         |
+| **Trainable Params**    | 188M         |
+| **GFLOPs**              | 761.17    |
+| **Avg Inference Time**  | 844 ms       |
 
 ## Visualizations
 
