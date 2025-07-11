@@ -50,3 +50,17 @@ This repo contains the evaluation and optimization of vision-language models (Pu
 | **Trainable Params**    | 188M         |
 | **GFLOPs**              | 761.17    |
 | **Avg Inference Time**  | 844 ms       |
+
+## Visualizations
+
+### 🔹 PureT Baseline Performance
+![PureT Baseline](Plots/puret_baseline.png)
+
+### 🔹 BLIP-2 Baseline Performance
+![BLIP-2 Baseline](Plots/blip2_baseline.png)
+
+### 🔹 PureT vs BLIP-2 – Metric Comparison
+![PureT vs BLIP-2](Plots/puret_vs_blip2_baseline.png)
+
+### 🔹 PureT vs BLIP-2 – Model Characteristics
+![Model Characteristics](Plots/puret_vs_blip2_baseline_model_chars.png)
